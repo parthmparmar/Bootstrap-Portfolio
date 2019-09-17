@@ -1,5 +1,7 @@
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-image: url(../images/Backgroud.png);
 }
 
 article {
@@ -20,8 +22,12 @@ nav {
     color: #4aaaa5;
 }
 
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
 h2 {
     border-bottom: 2px solid #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .u_name{
@@ -40,5 +46,10 @@ h2 {
 }
 
 footer{
-    
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+}
+
+.s_btn {
+    margin-left: 10px;
 }
